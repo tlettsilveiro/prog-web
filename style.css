@@ -15,3 +15,13 @@ font-size: 20px;
 position: relative;
 bottom: 800px;
 left: 850px;}
+
+@media screen and (max-width: 480px){
+    Body {
+    Background-color: blue; 
+    }
+}
+
+p::first-letter {
+    Color: white;
+    Font-size: xx-large;}

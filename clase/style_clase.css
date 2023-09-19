@@ -8,3 +8,26 @@ margin-top: 8pc;
 text-align: center;}
 
 div{width: 70%;}
+
+@media screen and (min-width: 480px){
+    Body {
+    Background-color: lightgreen; 
+    }
+}    
+
+/* unvisited link */
+a:link {
+    color: #FF0000;}
+/* visited link */
+a:visited {
+  color: #00FF00;}
+/* mouse over link */
+a:hover {
+  color: #8e1e8e;}
+/* selected link */
+a:active {
+  color: #0000FF;}
+
+p::first-letter {
+    Color: #ff0000;
+    Font-size: xx-large;}
