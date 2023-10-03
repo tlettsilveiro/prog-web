@@ -16,12 +16,30 @@ position: relative;
 bottom: 800px;
 left: 850px;}
 
-@media screen and (max-width: 480px){
-    Body {
-    Background-color: blue; 
-    }
-}
-
 p::first-letter {
     Color: white;
     Font-size: xx-large;}
+
+/* unvisited link */
+a:link {
+  color: #FF0000;}
+/* visited link */
+a:visited {
+  color: #00FF00;}
+/* mouse over link */
+a:hover {
+  color: #8e1e8e;}
+/* selected link */
+a:active {
+  color: #0000FF;}
+
+  @media screen and (min-width: 600px){
+    #body_celular{
+        display: none;}
+}
+  @media screen and (max-width: 600px){
+    #body_computadora{
+        display: none;}
+    Body {
+        Background-color: blue;}
+}
