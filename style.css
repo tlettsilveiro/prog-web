@@ -1,45 +1,64 @@
 body{background-color: lightblue;}
 
-h1{color: white;
-border: 1px solid black;
-margin-top: 2pc;}
-
-footer{color: white;
-margin-bottom: 0pc;
-font-size: 15px;
-text-align: right;}
-
-table{color: whitesmoke;
-border: 4px solid black;
-font-size: 20px;
-position: relative;
-bottom: 800px;
-left: 850px;}
-
 p::first-letter {
-    Color: white;
-    Font-size: xx-large;}
+  Color: white;
+  Font-size: xx-large;}
 
 /* unvisited link */
 a:link {
-  color: #FF0000;}
+  color: #0000FF;}
 /* visited link */
 a:visited {
-  color: #00FF00;}
+  color: #8e1e8e;}
 /* mouse over link */
 a:hover {
-  color: #8e1e8e;}
+  color: #00ffe1;}
 /* selected link */
 a:active {
-  color: #0000FF;}
+  color: #00FF00;}
 
-  @media screen and (min-width: 600px){
-    #body_celular{
-        display: none;}
+/* Para camputadora(1440) */
+@media screen and (min-width: 600px){
+  #body_celular{
+    display: none;}
+  h1{color: white;
+    border: 1px solid black;
+    margin-top: 2pc;}
+  footer{color: white;
+    margin-bottom: 0pc;
+    font-size: 15px;
+    text-align: right;}
+  table{color: whitesmoke;
+    border: 4px solid black;
+    font-size: 25px;
+    position: relative;
+    bottom: 580px;
+    left: 780px;}
+  #imagen_grande{
+    width: 450px;
+    height: auto;
+    margin-left: 5pc;}
 }
-  @media screen and (max-width: 600px){
-    #body_computadora{
-        display: none;}
-    Body {
-        Background-color: blue;}
+/* Para celular(390) */
+@media screen and (max-width: 600px){
+  #body_computadora{
+    display: none;}
+  h1{color: white;
+    border: 1px solid black;
+    margin-top: 2pc;}
+  footer{color: white;
+    margin-bottom: 0pc;
+    font-size: 15px;
+    text-align: right;}
+  table{color: whitesmoke;
+    border: 4px solid black;
+    font-size: 20px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 0pc;}
+  #imagen_chica{
+    width: 350px;
+    height: auto;
+    margin-left: 0pc;}
 }
