@@ -33,10 +33,17 @@ a:active {
   #imagen_grande{
     width: 450px;
     height: auto;
-    margin-left: 5pc;}
+    margin-left: 5%;}
+  #epigrafe_comp{
+    margin-left: 14%;
+    font-size: 10px;}
   #miParrafo::first-letter{
     Color: white;
     Font-size: x-large;}
+  #pie_de_pag_izq_comp{
+      text-align: left;
+      position: relative;
+      top: 25px;}
 }
 /* Para celular(390) */
 @media screen and (max-width: 600px){
@@ -54,14 +61,21 @@ a:active {
     font-size: 20px;
     position: relative;
     bottom: 0px;
-    left: 0px;
+    left: 10px;
     margin-left: 0pc;}
   #imagen_chica{
     width: 350px;
     height: auto;
-    margin-left: 0pc;
+    margin-left: 10px;
     margin-top: 0.5pc;}
+  #epigrafe_celu{
+    margin-left: 25%;
+    font-size: 10px;}
   #miParrafo::first-letter{
     Color: white;
     Font-size: x-large;}
+  #pie_de_pag_izq_cel{
+    text-align: left;
+    position: relative;
+    top: 40px;}
 }
