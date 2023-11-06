@@ -21,3 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+// Script para que funcione el boton de busqueda
