@@ -51,6 +51,9 @@ a:active {
     grid-template-columns: auto auto;
     gap: 10px;
     padding: 10px;}
+  #lupa {
+    width: 1vw;
+    height: 1vw;}
 }
 /* Para celular(390) */
 @media screen and (max-width: 600px){
@@ -87,4 +90,7 @@ a:active {
     grid-template-columns: auto;
     gap: 10px;
     padding: 10px;}
+  #lupa {
+    width: 1vw;
+    height: 1vw;}
 }
