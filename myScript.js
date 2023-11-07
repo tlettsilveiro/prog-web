@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// Script para que funcionen los botones 'Volver'
+// Script para que funcionen los botones 'Volver' (funciona)
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('returnButton').addEventListener('click', function() {
-        window.location.href = 'index.html';
+        window.history.back();
     });
 });
 
