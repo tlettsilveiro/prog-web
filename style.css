@@ -54,6 +54,8 @@ a:active {
   #lupa {
     width: 1vw;
     height: 1vw;}
+  .container-fluid {
+    text-align: right;}
 }
 /* Para celular(390) */
 @media screen and (max-width: 600px){
@@ -93,4 +95,6 @@ a:active {
   #lupa {
     width: 1vw;
     height: 1vw;}
+  .container-fluid {
+    text-align: right;}
 }

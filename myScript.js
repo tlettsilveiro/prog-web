@@ -2,9 +2,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('miFormulario').addEventListener('submit', function(event) {
         event.preventDefault(); // Esto previene el comportamiento predeterminado del formulario
-
+        
         var comentarios = document.getElementById('comentarios').value;
-
+        
         console.log('Comentarios:', comentarios);
     });
 });
