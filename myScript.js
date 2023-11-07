@@ -1,13 +1,11 @@
 // Script para guardar los comentarios
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('miFormulario').addEventListener('submit', function(event) {
-        event.preventDefault(); // Esto previene el comportamiento predeterminado del formulario
-        
-        var comentarios = document.getElementById('comentarios').value;
-        
-        console.log('Comentarios:', comentarios);
-    });
+document.getElementById('btn-submit').addEventListener('click', function() {
+    var userInput = document.getElementById('comentariosInput').value;
+    
+    console.log(userInput);
+    window.history.back();
 });
+
 
 
 
