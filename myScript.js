@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// Script para que funcione el boton de busqueda
+// Script para que funcione el boton de busqueda (funciona)
 function buscar(valor) {
     switch(valor) {
       case "Argentina":
@@ -36,5 +36,6 @@ function buscar(valor) {
         window.location.href = "./Paris Saint-Germain.html";
         break;
       default:
-        alert("No se encontró ninguna coincidencia.");}
+        alert("No se encontró ninguna coincidencia.");
+    }
  }
