@@ -11,10 +11,8 @@ document.getElementById('btn-submit').addEventListener('click', function() {
 
 
 // Script para que funcionen los botones 'Volver' (funciona)
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('returnButton').addEventListener('click', function() {
-        window.history.back();
-    });
+document.getElementById("returnButton").addEventListener("click", function(){
+  window.location.href = "index.html";
 });
 
 
@@ -24,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function buscar(valor) {
     switch(valor) {
       case "Argentina":
-        window.location.href = "./Argentina";
+        window.location.href = "./Argentina.html";
         break;
       case "Barcelona":
         window.location.href = "./Barcelona.html";
@@ -38,4 +36,4 @@ function buscar(valor) {
       default:
         alert("No se encontró ninguna coincidencia.");
     }
- }
+}
