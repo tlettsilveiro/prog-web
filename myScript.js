@@ -11,9 +11,9 @@ document.getElementById('btn-submit').addEventListener('click', function() {
 
 
 // Script para que funcionen los botones 'Volver' (funciona)
-document.getElementById("returnButton").addEventListener("click", function(){
+function goToPage() {
   window.location.href = "index.html";
-});
+}
 
 
 
