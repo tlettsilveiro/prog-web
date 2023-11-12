@@ -1,9 +1,7 @@
 // Script para guardar los comentarios
 document.getElementById('btn-submit').addEventListener('click', function() {
-    var userInput = document.getElementById('comentariosInput').value;
-    
-    console.log(userInput);
-    window.history.back();
+  var texto = document.getElementById('texto').value;
+  document.getElementById('mensaje').innerHTML = 'Texto guardado: ' + texto;
 });
 
 
