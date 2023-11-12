@@ -21,3 +21,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Script para que funcione el boton de busqueda
+function buscar(valor) {
+    switch(valor) {
+      case "Argentina":
+        window.location.href = "./Argentina";
+        break;
+      case "Barcelona":
+        window.location.href = "./Barcelona.html";
+        break;
+      case "Inter de Miami":
+        window.location.href = "./Inter de Miami.html";
+        break;
+      case "Paris Saint-Germain":
+        window.location.href = "./Paris Saint-Germain.html";
+        break;
+      default:
+        alert("No se encontró ninguna coincidencia.");}
+ }

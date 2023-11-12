@@ -51,9 +51,6 @@ a:active {
     grid-template-columns: auto auto;
     gap: 10px;
     padding: 10px;}
-  #lupa {
-    width: 1vw;
-    height: 1vw;}
   .container-fluid {
     text-align: right;}
 }
@@ -92,9 +89,6 @@ a:active {
     grid-template-columns: auto;
     gap: 10px;
     padding: 10px;}
-  #lupa {
-    width: 2vw;
-    height: 2vw;}
   .container-fluid {
     text-align: right;}
 }
