@@ -1,11 +1,8 @@
 // Script para guardar los comentarios
 document.getElementById('btn-submit').addEventListener('click', function() {
   var texto = document.getElementById('texto').value;
-  document.getElementById('mensaje').innerHTML = 'Texto guardado: ' + texto;
-});
-
-
-
+  document.getElementById('mensaje').innerHTML = 'Comentarios Hechos: ' + texto;}
+)
 
 
 // Script para que funcionen los botones 'Volver' (funciona)
@@ -14,24 +11,23 @@ function goToPage() {
 }
 
 
-
-
 // Script para que funcione el boton de busqueda (funciona)
 function buscar(valor) {
-    switch(valor) {
-      case "Argentina":
-        window.location.href = "./Argentina.html";
-        break;
-      case "Barcelona":
-        window.location.href = "./Barcelona.html";
-        break;
-      case "Inter de Miami":
-        window.location.href = "./Inter de Miami.html";
-        break;
-      case "Paris Saint-Germain":
-        window.location.href = "./Paris Saint-Germain.html";
-        break;
+  var value = valor.toLowerCase();
+  switch(value) {
+      case "argentina":
+          window.location.href = "./Argentina.html";
+          break;
+      case "barcelona":
+          window.location.href = "./Barcelona.html";
+          break;
+      case "inter de miami":
+          window.location.href = "./Inter de Miami.html";
+          break;
+      case "paris saint-germain":
+          window.location.href = "./Paris Saint-Germain.html";
+          break;
       default:
-        alert("No se encontró ninguna coincidencia.");
-    }
+          alert("No se encontró ninguna coincidencia.");
+  }
 }
