@@ -11,6 +11,18 @@ function goToPage() {
 }
 
 
+// Script para que funcionen los botones de redes (funciona)
+function Instagram() {
+  window.location.href = "https://www.instagram.com/leomessi/?hl=es";
+}
+function X() {
+  window.location.href = "https://twitter.com/leomessisite?lang=es";
+}
+function Facebook() {
+  window.location.href = "https://m.facebook.com/profile.php?id=100044447978953";
+}
+
+
 // Script para que funcione el boton de busqueda (funciona)
 function buscar(valor) {
   var value = valor.toLowerCase();
