@@ -36,6 +36,12 @@ a:active {
     height: auto;
     display: block;
     margin: 0 auto;}
+  #imagen_grande_es{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin:  auto;
+    margin-top: 20%;}
   #epigrafe_comp{
     text-align: center;
     font-size: 10px;}
@@ -70,6 +76,11 @@ a:active {
     font-size: 3.5vw;
     margin-left: 15%;}
   #imagen_chica{
+    width: 58%;
+    height: auto;
+    margin-left: 19vw;
+    margin-top: 0.5pc;}
+  #imagen_chica_es{
     width: 58%;
     height: auto;
     margin-left: 19vw;
