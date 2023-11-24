@@ -1,8 +1,8 @@
 // Script para guardar los comentarios
 document.getElementById('btn-submit').addEventListener('click', function() {
   var texto = document.getElementById('texto').value;
-  document.getElementById('mensaje').innerHTML = 'Comentarios Hechos: ' + texto;}
-)
+  alert("Mensaje a guardar:" + texto);
+});
 
 
 // Script para que funcionen los botones 'Volver' (funciona)
