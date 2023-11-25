@@ -54,9 +54,13 @@ a:active {
     position: relative;
     top: 140px;}
   #pie_de_pag_cen_comp{
-    text-align: left;
+    text-align: center;
     position: relative;
     top: 0px;}
+  .botones {
+    position: relative;
+    right: 17px;
+    top: 10px;}
   #pie_de_pag_der_comp{
     text-align: right;
     position: relative;
