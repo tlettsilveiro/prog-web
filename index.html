@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,34 @@
   <div id="body_computadora">
     <header></header>
     <main>
-      <nav id="navbar">
-        <div class="container-fluid">
-          <a id="navbar-brand">Biografia de Personas Destacadas</a>
-          <form>
-            <input type="text" id="busqueda" name="busqueda">
-            <input type="button" value="Buscar" onclick="buscar(document.getElementById('busqueda').value)">
-          </form>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Personas Destacadas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./Argentina.html">Argentina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Barcelona.html">Barcelona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paris Saint-Germain.html">PSG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Inter de Miami.html">Inter de Miami</a>
+            </li>
+            <li>
+              <div class="container-fluid">
+                <form>
+                  <input type="text" id="busqueda" name="busqueda" placeholder="Escribe aquí...">
+                  <input type="button" value="Buscar" onclick="buscar(document.getElementById('busqueda').value)">
+                </form>
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
       <h1 style="text-align:center ;">Lionel Andres Messi Cuccittini</h1>
@@ -78,7 +100,7 @@
         </form>
       </div>
       <div id="pie_de_pag_cen_comp">
-        <h2 style="text-align:center ;">Redes de la Persona Destacada</h2>
+        <h4 style="text-align:center ;">Redes de la Persona Destacada</h4>
         <button class="botones" onclick="Instagram()"> <img src="https://i.postimg.cc/rp1Rb6zJ/2048px-Instagram-logo-2016-svg.png" alt="Instagram" title="Visita Instagram" width="32" height="32"></button> Instagram<br>
         <button class="botones" onclick="X()"> <img src="https://i.postimg.cc/Hnqpdxh7/Logo-Twitter.jpg" alt="Instagram" title="Visita Instagram" width="33" height="29"></button> Twitter /X<br>
         <button class="botones" onclick="Facebook()"> <img src="https://i.postimg.cc/B6tNHcqH/Logo-de-Facebook.png" alt="Instagram" title="Visita Instagram" width="32" height="32"></button> Facebook
@@ -153,9 +175,9 @@
     <footer>
       <div class="grid-container-fot">
       <div id="pie_de_pag_izq_cel">
-        <h2 style="text-align:center ;">Redes de la Persona Destacada</h2>
+        <h5 style="text-align:center ;">Redes de la Persona Destacada</h5>
         <button onclick="Instagram()"> <img src="https://i.postimg.cc/rp1Rb6zJ/2048px-Instagram-logo-2016-svg.png" alt="Instagram" title="Visita Instagram" width="23" height="23"></button> Instagram<br>
-        <button onclick="X()"> <img src="https://i.postimg.cc/Hnqpdxh7/Logo-Twitter.jpg" alt="Instagram" title="Visita Instagram" width="23" height="19"></button> Twitter<br>
+        <button onclick="X()"> <img src="https://i.postimg.cc/Hnqpdxh7/Logo-Twitter.jpg" alt="Instagram" title="Visita Instagram" width="23" height="19"></button> Twitter/X<br>
         <button onclick="Facebook()"> <img src="https://i.postimg.cc/B6tNHcqH/Logo-de-Facebook.png" alt="Instagram" title="Visita Instagram" width="23" height="23"></button> Facebook
       </div>
       <div id="pie_de_pag_der_cel">

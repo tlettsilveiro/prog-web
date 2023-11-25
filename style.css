@@ -14,7 +14,7 @@ a:active {
   color: #00FF00;}
 
 /* Para camputadora(1440) */
-@media screen and (min-width: 600px){
+@media screen and (min-width: 991px){
   #body_celular{
     display: none;}
   h1{color: white;
@@ -52,7 +52,7 @@ a:active {
   #pie_de_pag_izq_comp{
     text-align: left;
     position: relative;
-    top: 140px;}
+    top: 125px;}
   #pie_de_pag_cen_comp{
     text-align: center;
     position: relative;
@@ -60,11 +60,11 @@ a:active {
   .botones {
     position: relative;
     right: 17px;
-    top: 10px;}
+    top: 4px;}
   #pie_de_pag_der_comp{
     text-align: right;
     position: relative;
-    top: 140px;}
+    top: 130px;}
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -76,10 +76,11 @@ a:active {
     gap: 10px;
     padding: 10px;}
   .container-fluid {
-    text-align: right;}
+    text-align: right;
+    margin-right: 1px;}
 }
 /* Para celular(390) */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 991px){
   #body_computadora{
     display: none;}
   h1{color: white;
@@ -111,13 +112,13 @@ a:active {
     Color: white;
     Font-size: x-large;}
   #pie_de_pag_izq_cel{
-    text-align: left;
+    text-align: center;
     position: relative;
     top: 0px;}
   #pie_de_pag_der_cel{
     text-align: right;
     position: relative;
-    top: 130px;}
+    top: 110px;}
   .grid-container {
     display: grid;
     grid-template-columns: auto;
